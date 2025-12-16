@@ -22,6 +22,6 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency("rake")
   s.add_development_dependency("roodi")
-  s.add_development_dependency("rspec",   "~>2.3")
-  s.add_development_dependency("ZenTest", "~>4.4.2")
+  s.add_development_dependency("rspec",   "<4.0")
+  s.add_development_dependency("ZenTest", "<5.0")
 end
